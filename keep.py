@@ -1,7 +1,7 @@
 import gkeepapi
 
 keep = gkeepapi.Keep()
-success = keep.login('patfmurray@gmail.com', 'uunmqnvciqhgnhph')
+success = keep.login('patfmurray@gmail.com', '{PASSWORD}')
 
 # gnotes = keep.all()
 artLabel = keep.findLabel('Art')
